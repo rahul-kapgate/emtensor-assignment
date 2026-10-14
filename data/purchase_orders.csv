@@ -1,0 +1,16 @@
+po_id,dept_id,vendor,component_id,category,po_amount_inr,order_date,expected_delivery,actual_delivery,po_status
+PO-2026-001,CIV,Kaveri Infra Projects,FAC-RFL,civil_works,9500000,2026-01-29,2026-03-10,2026-06-02,closed
+PO-2026-002,CIV,Aravali Fire Safety,FAC-FSS,civil_works,6200000,2026-04-04,2026-05-19,2026-07-24,closed
+PO-2026-003,CIV,Kaveri Infra Projects,FAC-SEC,civil_works,2100000,2026-04-03,2026-05-14,2026-03-23,closed
+PO-2026-004,EEE,Tejas Electricals,PWR-SUB,equipment,14000000,2026-01-29,2026-01-29,2026-05-21,closed
+PO-2026-005,EEE,Bharat Power Systems,PWR-UPS,equipment,13600000,2026-01-29,2026-01-14,2026-03-23,closed
+PO-2026-006,EEE,Bharat Power Systems,PWR-DG,equipment,9000000,2026-02-21,2026-05-14,2026-08-18,closed
+PO-2026-007,EEE,Tejas Electricals,PWR-PDU,equipment,2400000,2026-04-18,2026-06-20,,open
+PO-2026-008,MEC,Sahyadri Cooling Tech,CLG-CHL,equipment,23000000,2026-01-29,2026-02-08,2026-06-03,closed
+PO-2026-009,MEC,Sahyadri Cooling Tech,CLG-PIPE,equipment,5400000,2026-02-24,2026-05-19,2026-08-08,closed
+PO-2026-010,MEC,Sahyadri Cooling Tech,CLG-CDU,equipment,7800000,2026-04-27,2026-07-08,,open
+PO-2026-011,MEC,Sahyadri Cooling Tech,CLG-RDX,equipment,6500000,2026-05-23,2026-07-30,,open
+PO-2026-012,ECE,Nexus Compute India,CMP-CPU,equipment,62464000,2026-02-25,2026-05-19,2026-07-11,closed
+PO-2026-013,ECE,Nexus Compute India,CMP-GPU,equipment,71808000,2026-04-03,2026-07-13,,open
+PO-2026-014,ECE,Indus Networks,NET-001,equipment,27000000,2026-01-29,2026-03-10,2026-07-08,closed
+PO-2026-015,CSE,Deccan Storage Solutions,STO-001,equipment,32000000,2026-01-29,2026-02-18,2026-07-15,closed

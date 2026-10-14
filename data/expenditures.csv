@@ -1,0 +1,234 @@
+expense_id,dept_id,allocation_id,category,po_id,vendor,amount_inr,expense_date,description,invoice_no,requested_by,approved_by
+EX00146,ECE,AL057,consumables,,Nexus Compute India,29096,2025-10-22,Tools & test kits,INV/NEX/48592,R033,R024
+EX00133,MEC,AL041,consumables,,Indus Networks,86791,2025-10-26,Lab consumables,INV/IND/71748,R022,R016
+EX00027,CIV,AL005,manpower,,,84000,2025-10-31,Project staff salaries Oct 2025,PAY/CIV/202510,R002,R058
+EX00028,EEE,AL021,manpower,,,215000,2025-10-31,Project staff salaries Oct 2025,PAY/EEE/202510,R009,R058
+EX00029,MEC,AL037,manpower,,,169000,2025-10-31,Project staff salaries Oct 2025,PAY/MEC/202510,R021,R058
+EX00030,ECE,AL053,manpower,,,300000,2025-10-31,Project staff salaries Oct 2025,PAY/ECE/202510,R031,R058
+EX00031,CSE,AL069,manpower,,,177000,2025-10-31,Project staff salaries Oct 2025,PAY/CSE/202510,R038,R058
+EX00032,PHY,AL081,manpower,,,129000,2025-10-31,Project staff salaries Oct 2025,PAY/PHY/202510,R053,R058
+EX00033,PMO,AL105,manpower,,,42000,2025-10-31,Project staff salaries Oct 2025,PAY/PMO/202510,R061,R058
+EX00190,PMO,AL113,travel,,,164016,2025-10-31,"Ministry review meeting, New Delhi",INV/GEN/50987,R058,R058
+EX00169,PHY,AL089,travel,,,33932,2025-11-07,HPC workshop,INV/GEN/66522,R047,R047
+EX00111,CIV,AL009,consumables,,Kaveri Infra Projects,46053,2025-11-19,Lab consumables,INV/KAV/56410,R006,R001
+EX00161,CSE,AL077,travel,,,127113,2025-11-20,"Ministry review meeting, New Delhi",INV/GEN/3101,R043,R036
+EX00157,CSE,AL073,consumables,,Bharat Power Systems,29100,2025-11-26,Cabling & connectors,INV/BHA/76482,R044,R036
+EX00131,MEC,AL041,consumables,,Tejas Electricals,19530,2025-11-28,Lab consumables,INV/TEJ/98863,R023,R016
+EX00181,PRC,AL101,travel,,,89165,2025-11-29,HPC workshop,INV/GEN/81275,R057,R055
+EX00034,CIV,AL005,manpower,,,213000,2025-11-30,Project staff salaries Nov 2025,PAY/CIV/202511,R005,R058
+EX00035,EEE,AL021,manpower,,,299000,2025-11-30,Project staff salaries Nov 2025,PAY/EEE/202511,R012,R058
+EX00036,MEC,AL037,manpower,,,169000,2025-11-30,Project staff salaries Nov 2025,PAY/MEC/202511,R022,R058
+EX00037,ECE,AL053,manpower,,,515000,2025-11-30,Project staff salaries Nov 2025,PAY/ECE/202511,R029,R058
+EX00038,CSE,AL069,manpower,,,222000,2025-11-30,Project staff salaries Nov 2025,PAY/CSE/202511,R044,R058
+EX00039,PHY,AL081,manpower,,,341000,2025-11-30,Project staff salaries Nov 2025,PAY/PHY/202511,R049,R058
+EX00040,PMO,AL105,manpower,,,42000,2025-11-30,Project staff salaries Nov 2025,PAY/PMO/202511,R060,R058
+EX00129,MEC,AL041,consumables,,Orbit Datacom,165682,2025-12-06,Spares,INV/ORB/69900,R022,R016
+EX00137,MEC,AL045,travel,,,109951,2025-12-06,Vendor factory acceptance visit,INV/GEN/17267,R018,R016
+EX00117,EEE,AL025,consumables,,Nexus Compute India,130134,2025-12-16,Spares,INV/NEX/84254,R010,R008
+EX00149,ECE,AL061,travel,,,98791,2025-12-20,Vendor factory acceptance visit,INV/GEN/18232,R032,R024
+EX00201,CSE,AL117,software_licences,,Indus Networks,550291,2025-12-21,Profiler licence,INV/IND/50437,R036,R036
+EX00126,EEE,AL029,travel,,,147321,2025-12-27,HPC workshop,INV/GEN/20746,R008,R008
+EX00193,PMO,AL113,travel,,,101565,2025-12-29,"Ministry review meeting, New Delhi",INV/GEN/88316,R061,R058
+EX00041,CIV,AL005,manpower,,,213000,2025-12-31,Project staff salaries Dec 2025,PAY/CIV/202512,R006,R058
+EX00042,EEE,AL021,manpower,,,299000,2025-12-31,Project staff salaries Dec 2025,PAY/EEE/202512,R010,R058
+EX00043,MEC,AL037,manpower,,,169000,2025-12-31,Project staff salaries Dec 2025,PAY/MEC/202512,R019,R058
+EX00044, ECE ,AL053,manpower,,,515000,2025-12-31,Project staff salaries Dec 2025,PAY/ECE/202512,R031,R058
+EX00045,CSE,AL069,manpower,,,222000,2025-12-31,Project staff salaries Dec 2025,PAY/CSE/202512,R037,R058
+EX00046,PHY,AL081,manpower,,,341000,2025-12-31,Project staff salaries Dec 2025,PAY/PHY/202512,R051,R058
+EX00047,PMO,AL105,manpower,,,42000,2025-12-31,Project staff salaries Dec 2025,PAY/PMO/202512,R060,R058
+EX00200,CSE,AL117,software_licences,,Orbit Datacom,552831,2026-01-06,Profiler licence,INV/ORB/92774,R040,R036
+EX00110,CIV,AL009,consumables,,Aravali Fire Safety,75122,2026-01-08,Lab consumables,INV/ARA/37890,R007,R001
+EX00125,EEE,AL029,travel,,,80487,2026-01-09,Vendor factory acceptance visit,INV/GEN/35003,R010,R008
+EX00178,PRC,AL097,consumables,,Aravali Fire Safety,51831,2026-01-10,Spares,INV/ARA/42392,R055,R055
+EX00199,CSE,AL117,software_licences,,Nexus Compute India,192978,2026-01-14,Visualisation licence,INV/NEX/13195,R044,R036
+EX00166,PHY,AL085,consumables,,Bharat Power Systems,176067,2026-01-21,Lab consumables,INV/BHA/10994,R054,R047
+EX00168,PHY,AL089,travel,,,57046,2026-01-26,Vendor factory acceptance visit,INV/GEN/25426,R047,R047
+EX00048,CIV,AL005,manpower,,,213000,2026-01-31,Project staff salaries Jan 2026,PAY/CIV/202601,R003,R058
+EX00049,EEE,AL021,manpower,,,299000,2026-01-31,Project staff salaries Jan 2026,PAY/EEE/202601,R012,R058
+EX00050, MEC ,AL037,manpower,,,211000,2026-01-31,Project staff salaries Jan 2026,PAY/MEC/202601,R019,R058
+EX00051,ECE,AL053,manpower,,,600000,2026-01-31,Project staff salaries Jan 2026,PAY/ECE/202601,R034,R058
+EX00052,CSE,AL069,manpower,,,349000,2026-01-31,Project staff salaries Jan 2026,PAY/CSE/202601,R040,R058
+EX00053,PHY,AL081,manpower,,,341000,2026-01-31,Project staff salaries Jan 2026,PAY/PHY/202601,R050,R058
+EX00054,PMO,AL105,manpower,,,42000,2026-01-31,Project staff salaries Jan 2026,PAY/PMO/202601,R059,R058
+EX00118,EEE,AL025,consumables,,Indus Networks,36836,2026-02-02,Spares,INV/IND/8760,R012,R008
+EX00127,EEE,AL029,travel,,,38667,2026-02-02,Vendor factory acceptance visit,INV/GEN/36379,R013,R008
+EX00187,PMO,AL109,consumables,,Kaveri Infra Projects,156388,2026-02-02,Spares,INV/KAV/48555,R060,R058
+EX00209,PHY,AL121,software_licences,,Nexus Compute India,99876,2026-02-04,Compiler suite licence,INV/NEX/21901,R049,R047
+EX00007,EEE,AL017,equipment,PO-2026-004,Tejas Electricals,4200000,2026-02-05,Advance 30% - 11 kV HT substation upgrade,INV/TEJ/65819,R014,R008
+EX00014,MEC,AL033,equipment,PO-2026-008,Sahyadri Cooling Tech,6900000,2026-02-05,Advance 30% - Air-cooled chiller 300 TR,INV/SAH/54582,R018,R016
+EX00179,PRC,AL097,consumables,,Sahyadri Cooling Tech,70680,2026-02-08,Cabling & connectors,INV/SAH/98596,R055,R055
+EX00204,PHY,AL121,software_licences,,Orbit Datacom,450716,2026-02-08,Compiler suite licence,INV/ORB/81322,R053,R047
+EX00009,EEE,AL017,equipment,PO-2026-005,Bharat Power Systems,4080000,2026-02-11,Advance 30% - Modular UPS 500 kVA,INV/BHA/48916,R012,R008
+EX00001,CIV,AL001,civil_works,PO-2026-001,Kaveri Infra Projects,2850000,2026-02-12,Advance 30% - Raised floor (600 mm) & reinforcement,INV/KAV/85496,R007,R001
+EX00025,CSE,AL065,equipment,PO-2026-015,Deccan Storage Solutions,9600000,2026-02-12,Advance 30% - Parallel storage (2 PB),INV/DEC/27693,R037,R036
+EX00023,ECE,AL049,equipment,PO-2026-014,Indus Networks,8100000,2026-02-14,Advance 30% - InfiniBand interconnect,INV/IND/16085,R035,R024
+EX00165,PHY,AL085,consumables,,Orbit Datacom,54259,2026-02-18,Tools & test kits,INV/ORB/78319,R048,R047
+EX00197,CSE,AL117,software_licences,,Bharat Power Systems,532871,2026-02-18,Profiler licence,INV/BHA/65607,R042,R036
+EX00176,PRC,AL097,consumables,,Tejas Electricals,144156,2026-02-19,Lab consumables,INV/TEJ/92179,R055,R055
+EX00145,ECE,AL057,consumables,,Sahyadri Cooling Tech,133522,2026-02-20,Cabling & connectors,INV/SAH/44870,R035,R024
+EX00180,PRC,AL101,travel,,,"₹14,746",2026-02-21,HPC workshop,INV/GEN/52500,R055,R055
+EX00158,CSE,AL073,consumables,,Sahyadri Cooling Tech,8099,2026-02-22,Tools & test kits,INV/SAH/58772,R037,R036
+EX00211,PHY,AL121,software_licences,,Sahyadri Cooling Tech,344167,2026-02-25,Visualisation licence,INV/SAH/9288,R049,R047
+EX00055,CIV,AL005,manpower,,,213000,28/02/2026,Project staff salaries Feb 2026,PAY/CIV/202602,R002,R058
+EX00056,EEE,AL021,manpower,,,299000,2026-02-28,Project staff salaries Feb 2026,PAY/EEE/202602,R011,R058
+EX00057,MEC,AL037,manpower,,,211000,2026-02-28,Project staff salaries Feb 2026,PAY/MEC/202602,R016,R058
+EX00058,ECE,AL053,manpower,,,600000,2026-02-28,Project staff salaries Feb 2026,PAY/ECE/202602,R034,R058
+EX00059,CSE,AL069,manpower,,,349000,2026-02-28,Project staff salaries Feb 2026,PAY/CSE/202602,R036,R058
+EX00060,PHY,AL081,manpower,,,341000,2026-02-28,Project staff salaries Feb 2026,PAY/PHY/202602,R047,R058
+EX00061,PMO,AL105,manpower,,,42000,2026-02-28,Project staff salaries Feb 2026,PAY/PMO/202602,R060,R058
+EX00140,ECE,AL057,consumables,,Indus Networks,99141,2026-03-03,Tools & test kits,INV/IND/58833,R034,R024
+EX00203,PHY,AL121,software_licences,,Tejas Electricals,378515,2026-03-04,Profiler licence,INV/TEJ/48530,R052,R047
+EX00189,PMO,AL109,consumables,,Sahyadri Cooling Tech,131013,2026-03-07,Cabling & connectors,INV/SAH/18968,R060,R058
+EX00011,EEE,AL017,equipment,PO-2026-006,Bharat Power Systems,2700000,2026-03-10,Advance 30% - DG set 1000 kVA,INV/BHA/74484,R012,R008
+EX00124,EEE,AL025,consumables,,Kaveri Infra Projects,144689,2026-03-10,Cabling & connectors,INV/KAV/49701,R015,R008
+EX00194,PMO,AL113,travel,,,159380,2026-03-13,"Ministry review meeting, New Delhi",INV/GEN/68741,R061,R058
+EX00016,MEC,AL033,equipment,PO-2026-009,Sahyadri Cooling Tech,1620000,2026-03-14,Advance 30% - Chilled water piping loop,INV/SAH/7574,R022,R016
+EX00020,ECE,AL049,equipment,PO-2026-012,Nexus Compute India,18739200,2026-03-16,Advance 30% - CPU partition,INV/NEX/6955,R027,R024
+EX00196,CSE,AL117,software_licences,,Deccan Storage Solutions,502471,2026-03-22,Visualisation licence,INV/DEC/17004,R046,R036
+EX00105,CIV,AL009,consumables,,Nexus Compute India,125876,2026-03-23,Cabling & connectors,INV/NEX/80130,R006,R001
+EX00119,EEE,AL025,consumables,,Aravali Fire Safety,133692,2026-03-25,Lab consumables,INV/ARA/77554,R008,R008
+EX00163,PHY,AL085,consumables,,Sahyadri Cooling Tech,119819,2026-03-26,Tools & test kits,INV/SAH/92219,R052,R047
+EX00212,PHY,AL121,software_licences,,Aravali Fire Safety,507095,2026-03-28,Visualisation licence,INV/ARA/22308,R047,R047
+EX00130,MEC,AL041,consumables,,Bharat Power Systems,170814,2026-03-29,Tools & test kits,INV/BHA/62240,R020,R016
+EX00120,EEE,AL025,consumables,,Deccan Storage Solutions,145669,2026-03-30,Cabling & connectors,INV/DEC/78116,R011,R008
+EX00225,EEE,AL025,consumables,,Sahyadri Cooling Tech,50089,2026-03-30,Year-end purchase,INV/SAH/77049,R014,R008
+EX00226,EEE,AL025,consumables,,Orbit Datacom,55723,2026-03-30,Year-end purchase,INV/ORB/95311,R013,R008
+EX00229,EEE,AL025,consumables,,Indus Networks,46497,2026-03-30,Year-end purchase,INV/IND/89309,R013,R008
+EX00230,EEE,AL025,consumables,,Nexus Compute India,70634,2026-03-30,Year-end purchase,INV/NEX/44499,R015,R008
+EX00231,EEE,AL025,consumables,,Aravali Fire Safety,52191,2026-03-30,Year-end purchase,INV/ARA/71896,R009,R008
+EX00062,CIV,AL005,manpower,,,213000,2026-03-31,Project staff salaries Mar 2026,PAY/CIV/202603,R003,R058
+EX00063,EEE,AL021,manpower,,,299000,2026-03-31,Project staff salaries Mar 2026,PAY/EEE/202603,R014,R058
+EX00064,MEC,AL037,manpower,,,211000,2026-03-31,Project staff salaries Mar 2026,PAY/MEC/202603,R016,R058
+EX00065,ECE,AL053,manpower,,,600000,2026-03-31,Project staff salaries Mar 2026,PAY/ECE/202603,R033,R058
+EX00066,CSE,AL069,manpower,,,349000,2026-03-31,Project staff salaries Mar 2026,PAY/CSE/202603,R036,R058
+EX00067,PHY,AL081,manpower,,,341000,2026-03-31,Project staff salaries Mar 2026,PAY/PHY/202603,R048,R058
+EX00068,PMO,AL105,manpower,,,42000,2026-03-31,Project staff salaries Mar 2026,PAY/PMO/202603,R059,R058
+EX00227,EEE,AL025,consumables,,Nexus Compute India,78601,2026-03-31,Year-end purchase,INV/NEX/37530,R012,R008
+EX00228,EEE,AL025,consumables,,Nexus Compute India,68101,2026-03-31,Year-end purchase,INV/NEX/94954,R012,R008
+EX00108,CIV,AL009,consumables,,Orbit Datacom,60419,2026-04-01,Lab consumables,INV/ORB/12047,R002,R001
+EX00104,CIV,AL009,consumables,,Tejas Electricals,87466,2026-04-04,Cabling & connectors,INV/TEJ/75444,R005,R001
+EX00107,CIV,AL009,consumables,,Indus Networks,163879,2026-04-04,Spares,INV/IND/70495,R004,R001
+EX00202,PHY,AL121,software_licences,,Kaveri Infra Projects,329159,2026-04-05,Compiler suite licence,INV/KAV/43407,R052,R047
+EX00106,CIV,AL009,consumables,,Deccan Storage Solutions,60254,2026-04-06,Tools & test kits,INV/DEC/96155,R006,R001
+EX00198,CSE,AL117,software_licences,,Indus Networks,285511,2026-04-07,Visualisation licence,INV/IND/21787,R039,R036
+EX00144,ECE,AL057,consumables,,Indus Networks,107155,2026-04-09,Tools & test kits,INV/IND/17256,R031,R024
+EX00010,EEE,AL017,equipment,PO-2026-005,Bharat Power Systems,8160000,2026-04-13,Payment on delivery 60% - Modular UPS 500 kVA,INV/BHA/64339,R012,R008
+EX00138,MEC,AL045,travel,,,140646,2026-04-13,HPC workshop,INV/GEN/20395,R019,R016
+EX00184,PRC,AL101,travel,,,18065,2026-04-14,"Ministry review meeting, New Delhi",INV/GEN/50955,R055,R055
+EX00195,CSE,AL117,software_licences,,Kaveri Infra Projects,238957,2026-04-15,Compiler suite licence,INV/KAV/64284,R046,R036
+EX00005,CIV,AL001,civil_works,PO-2026-003,Kaveri Infra Projects,630000,2026-04-17,Advance 30% - Access control & CCTV,INV/KAV/65948,R002,R001
+EX00022,ECE,AL049,equipment,PO-2026-013,Nexus Compute India,21542400,2026-04-17,Advance 30% - GPU partition,INV/NEX/33136,R026,R024
+EX00116,CIV,AL013,travel,,,177539,2026-04-17,"Ministry review meeting, New Delhi",INV/GEN/71954,R004,R001
+EX00142,ECE,AL057,consumables,,Nexus Compute India,102299,2026-04-19,Lab consumables,INV/NEX/94767,R032,R024
+EX00003,CIV,AL002,civil_works,PO-2026-002,Aravali Fire Safety,1860000,2026-04-21,Advance 30% - Clean-agent fire suppression,INV/ARA/6913,R007,R001
+EX00170,PHY,AL090,travel,,,19012,2026-04-23,HPC workshop,INV/GEN/68729,R047,R047
+EX00206,PHY,AL122,software_licences,,Nexus Compute India,247389,2026-04-23,Compiler suite licence,INV/NEX/30949,R051,R047
+EX00013,EEE,AL018,equipment,PO-2026-007,Tejas Electricals,720000,2026-04-25,Advance 30% - Rack PDU bank,INV/TEJ/77783,R011,R008
+EX00109,CIV,AL010,consumables,,Nexus Compute India,70877,2026-04-25,Spares,INV/NEX/74899,R006,R001
+EX00216,ECE,AL050,equipment,,Orbit Datacom,3063145,2026-04-28,Urgent spares - direct purchase,INV/ORB/17924,R029,R024
+EX00069,CIV,AL006,manpower,,,213000,2026-04-30,Project staff salaries Apr 2026,PAY/CIV/202604,R005,R058
+EX00070,EEE,AL022,manpower,,,299000,2026-04-30,Project staff salaries Apr 2026,PAY/EEE/202604,R012,R058
+EX00071,MEC,AL038,manpower,,,211000,2026-04-30,Project staff salaries Apr 2026,PAY/MEC/202604,R017,R058
+EX00072,ECE,AL054,manpower,,,600000,2026-04-30,Project staff salaries Apr 2026,PAY/ECE/202604,R025,R058
+EX00073,CSE,AL070,manpower,,,349000,2026-04-30,Project staff salaries Apr 2026,PAY/CSE/202604,R046,R058
+EX00074,PHY,AL082,manpower,,,341000,2026-04-30,Project staff salaries Apr 2026,PAY/PHY/202604,R049,R058
+EX00075,PMO,AL106,manpower,,,42000,2026-04-30,Project staff salaries Apr 2026,PAY/PMO/202604,R059,R058
+EX00148,ECE,AL062,travel,,,153746,2026-05-04,Vendor factory acceptance visit,INV/GEN/62344,R030,R024
+EX00134,MEC,AL042,consumables,,Nexus Compute India,172103,2026-05-09,Cabling & connectors,INV/NEX/96871,R022,R016
+EX00220,PHY,AL122,software_licences,,Orbit Datacom,266217,2026-05-10,Licence renewal,INV/ORB/62948,R048,R047
+EX00159,CSE,AL074,consumables,,Nexus Compute India,148256,2026-05-12,Lab consumables,INV/NEX/41137,R036,R036
+EX00221,PHY,AL122,software_licences,,Orbit Datacom,276881,2026-05-13,Licence renewal,INV/ORB/59899,R047,R047
+EX00018,MEC,AL034,equipment,PO-2026-010,Sahyadri Cooling Tech,2340000,2026-05-16,Advance 30% - Coolant distribution unit,INV/SAH/57297,R019,R016
+EX00222,PHY,AL122,software_licences,,Orbit Datacom,373918,2026-05-16,Licence renewal,INV/ORB/6359,R049,R047
+EX00151,CSE,AL074,consumables,,Aravali Fire Safety,88824,2026-05-19,Spares,INV/ARA/57879,R042,R036
+EX00223,PHY,AL122,software_licences,,Orbit Datacom,316257,2026-05-19,Licence renewal,INV/ORB/48606,R050,R047
+EX00139,ECE,AL058,consumables,,Deccan Storage Solutions,65002,2026-05-20,Cabling & connectors,INV/DEC/87537,R027,R024
+EX00164,PHY,AL086,consumables,,Indus Networks,141975,2026-05-21,Cabling & connectors,INV/IND/94131,R048,R047
+EX00224,PHY,AL122,software_licences,,Orbit Datacom,347586,2026-05-22,Licence renewal,INV/ORB/75873,R049,R047
+EX00185,PRC,AL102,travel,,,16470,2026-05-23,Vendor factory acceptance visit,INV/GEN/22478,R057,R055
+EX00076,CIV,AL006,manpower,,,213000,2026-05-31,Project staff salaries May 2026,PAY/CIV/202605,R006,R058
+EX00077,EEE,AL022,manpower,,,299000,2026-05-31,Project staff salaries May 2026,PAY/EEE/202605,R013,R058
+EX00078,MEC,AL038,manpower,,,169000,2026-05-31,Project staff salaries May 2026,PAY/MEC/202605,R023,R058
+EX00079,ECE,AL054,manpower,,,600000,2026-05-31,Project staff salaries May 2026,PAY/ECE/202605,R031,R058
+EX00080,CSE,AL070,manpower,,,349000,2026-05-31,Project staff salaries May 2026,PAY/CSE/202605,R041,R058
+EX00081,PHY,AL082,manpower,,,341000,2026-05-31,Project staff salaries May 2026,PAY/PHY/202605,R050,R058
+EX00082,PMO,AL106,manpower,,,42000,2026-05-31,Project staff salaries May 2026,PAY/PMO/202605,R060,R058
+EX00175,PHY,AL090,travel,,,82757,2026-06-04,Vendor factory acceptance visit,INV/GEN/24359,R048,R047
+EX00132,MEC,AL042,consumables,,Aravali Fire Safety,150715,2026-06-05,Cabling & connectors,INV/ARA/39465,R019,R016
+EX00154,CSE,AL074,consumables,,Kaveri Infra Projects,50026,2026-06-06,Lab consumables,INV/KAV/92082,R043,R036
+EX00174,PHY,AL090,travel,,,17032,2026-06-07,"Ministry review meeting, New Delhi",INV/GEN/80764,R047,R047
+EX00008,EEE,AL018,equipment,PO-2026-004,Tejas Electricals,8400000,2026-06-08,Payment on delivery 60% - 11 kV HT substation upgrade,INV/TEJ/70043,R012,R008
+EX00002,CIV,AL002,civil_works,PO-2026-001,Kaveri Infra Projects,5700000,2026-06-09,Payment on delivery 60% - Raised floor (600 mm) & reinforcement,INV/KAV/79320,R005,R001
+EX00019,MEC,AL034,equipment,PO-2026-011,Sahyadri Cooling Tech,1950000,2026-06-10,Advance 30% - Rear-door heat exchanger bank,INV/SAH/33888,R023,R016
+EX00114,CIV,AL014,travel,,,97707,2026-06-13,"Ministry review meeting, New Delhi",INV/GEN/44642,R007,R001
+EX00205,PHY,AL122,software_licences,,Kaveri Infra Projects,230848,2026-06-15,Profiler licence,INV/KAV/90577,R049,R047
+EX00213,CIV,AL002,civil_works,PO-2026-001,Kaveri Infra Projects,5700000,2026-06-17,Payment on delivery 60% - Raised floor (600 mm) & reinforcement,INV/KAV/79320,R005,R001
+EX00135,MEC,AL046,travel,,,55094,2026-06-18,"Ministry review meeting, New Delhi",INV/GEN/14351,R017,R016
+EX00015,MEC,AL034,equipment,PO-2026-008,Sahyadri Cooling Tech,13800000,2026-06-20,Payment on delivery 60% - Air-cooled chiller 300 TR,INV/SAH/42306,R016,R016
+EX00128,EEE,AL030,travel,,,98807,2026-06-23,Vendor factory acceptance visit,INV/GEN/3494,R012,R008
+EX00123,EEE,AL026,consumables,,Nexus Compute India,172607,2026-06-25,Lab consumables,INV/NEX/51459,R010,R008
+EX00083,CIV,AL006,manpower,,,213000,2026-06-30,Project staff salaries Jun 2026,PAY/CIV/202606,R003,R058
+EX00084, EEE ,AL022,manpower,,,299000,2026-06-30,Project staff salaries Jun 2026,PAY/EEE/202606,R015,R058
+EX00085,MEC,AL038,manpower,,,169000,2026-06-30,Project staff salaries Jun 2026,PAY/MEC/202606,R018,R058
+EX00086,ECE,AL054,manpower,,,600000,2026-06-30,Project staff salaries Jun 2026,PAY/ECE/202606,R025,R058
+EX00087,CSE,AL070,manpower,,,349000,2026-06-30,Project staff salaries Jun 2026,PAY/CSE/202606,R037,R058
+EX00088,PHY,AL082,manpower,,,341000,2026-06-30,Project staff salaries Jun 2026,PAY/PHY/202606,R054,R058
+EX00089,PMO,AL106,manpower,,,42000,2026-06-30,Project staff salaries Jun 2026,PAY/PMO/202606,R059,R058
+EX00217,CIV,AL002,civil_works,PO-2026-001,Kaveri Infra Projects,2090000,2026-07-02,Final payment,INV/KAV/30241,R005,R001
+EX00160,CSE,AL078,travel,,,60949,2026-07-03,"Ministry review meeting, New Delhi",INV/GEN/39711,R039,R036
+EX00232,EEE,AL018,equipment,,,-341806,2026-07-06,Adjustment,,R010,R008
+EX00141,ECE,AL058,consumables,,Sahyadri Cooling Tech,72949,2026-07-08,Tools & test kits,INV/SAH/71626,R028,R024
+EX00219,MEC,AL042,consumables,,Aravali Fire Safety,89664,2026-07-08,Spares,INV/ARA/82426,R018,R018
+EX00188,PMO,AL110,consumables,,Orbit Datacom,114806,2026-07-13,Lab consumables,INV/ORB/75366,R061,R058
+EX00191,PMO,AL114,travel,,,140562,2026-07-13,"Ministry review meeting, New Delhi",INV/GEN/65019,R059,R058
+EX00024,ECE,AL050,equipment,PO-2026-014,Indus Networks,16200000,2026-07-14,Payment on delivery 60% - InfiniBand interconnect,INV/IND/55677,R033,R024
+EX00207,PHY,AL122,software_licences,,Kaveri Infra Projects,202228,2026-07-14,Profiler licence,INV/KAV/72698,R050,R047
+EX00152,CSE,AL074,consumables,,Tejas Electricals,27715,2026-07-17,Tools & test kits,INV/TEJ/4173,R042,R036
+EX00177,PRC,AL098,consumables,,Bharat Power Systems,114846,2026-07-17,Tools & test kits,INV/BHA/67919,R057,R055
+EX00167,PHY,AL086,consumables,,Indus Networks,98867,2026-07-19,Cabling & connectors,INV/IND/56502,R051,R047
+EX00215,PHY,AL086,consumables,,Nexus Compute India,354363,2026-07-20,Bulk purchase,INV/NEX/10338,R049,R047
+EX00026,CSE,AL066,equipment,PO-2026-015,Deccan Storage Solutions,19200000,2026-07-21,Payment on delivery 60% - Parallel storage (2 PB),INV/DEC/70219,R041,R036
+EX00115,CIV,AL014,travel,,,92909,2026-07-23,HPC workshop,INV/GEN/54818,R001,R001
+EX00112,CIV,AL010,consumables,,Indus Networks,102052,2026-07-27,Cabling & connectors,INV/IND/14815,R006,R001
+EX00155,CSE,AL074,consumables,,Nexus Compute India,164510,2026-07-27,Tools & test kits,INV/NEX/96787,R037,R036
+EX00156,CSE,AL074,consumables,,Nexus Compute India,122500,2026-07-27,Spares,INV/NEX/98861,R046,R036
+EX00006,CIV,AL002,civil_works,PO-2026-003,Kaveri Infra Projects,1260000,2026-07-28,Payment on delivery 60% - Access control & CCTV,INV/KAV/79192,R005,R001
+EX00147,ECE,AL058,consumables,,Tejas Electricals,39918,2026-07-28,Cabling & connectors,INV/TEJ/87294,R026,R024
+EX00172,PHY,AL090,travel,,,122971,2026-07-28,HPC workshop,INV/GEN/35036,R050,R047
+EX00208,PHY,AL122,software_licences,,Deccan Storage Solutions,421585,2026-07-28,Visualisation licence,INV/DEC/46438,R051,R047
+EX00182,PRC,AL102,travel,,,51551,2026-07-30,"Ministry review meeting, New Delhi",INV/GEN/30784,R055,R055
+EX00090,CIV,AL006,manpower,,,213000,2026-07-31,Project staff salaries Jul 2026,PAY/CIV/202607,R004,R058
+EX00091,EEE,AL022,manpower,,,299000,2026-07-31,Project staff salaries Jul 2026,PAY/EEE/202607,R014,R058
+EX00092,MEC,AL038,manpower,,,169000,2026-07-31,Project staff salaries Jul 2026,PAY/MEC/202607,R020,R058
+EX00093,ECE,AL054,manpower,,,600000,2026-07-31,Project staff salaries Jul 2026,PAY/ECE/202607,R030,R058
+EX00094,CSE,AL070,manpower,,,349000,2026-07-31,Project staff salaries Jul 2026,PAY/CSE/202607,R038,R058
+EX00095,PHY,AL082,manpower,,,341000,2026-07-31,Project staff salaries Jul 2026,PAY/PHY/202607,R052,R058
+EX00096,PMO,AL106,manpower,,,42000,2026-07-31,Project staff salaries Jul 2026,PAY/PMO/202607,R059,R058
+EX00021,ECE,AL050,equipment,PO-2026-012,Nexus Compute India,37478400,2026-08-01,Payment on delivery 60% - CPU partition,INV/NEX/95730,R025,R024
+EX00162,CSE,AL078,travel,,,159311,2026-08-03,HPC workshop,INV/GEN/26101,R039,R036
+EX00210,PHY,AL122,software_licences,,Indus Networks,441522,2026-08-05,Profiler licence,INV/IND/99168,R052,R047
+EX00143,ECE,AL058,consumables,,Nexus Compute India,168976,2026-08-07,Cabling & connectors,INV/NEX/18861,R025,R024
+EX00004,CIV,AL002,civil_works,PO-2026-002,Aravali Fire Safety,3720000,2026-08-10,Payment on delivery 60% - Clean-agent fire suppression,INV/ARA/51581,R002,R001
+EX00173,PHY,AL090,travel,,,46052,2026-08-14,"Ministry review meeting, New Delhi",INV/GEN/79227,R050,R047
+EX00218,CSE,AL067,equipment,,Deccan Storage Solutions,938001,2026-08-18,Additional storage shelf,INV/DEC/6124,R037,R036
+EX00121,EEE,AL026,consumables,,Indus Networks,131365,2026-08-21,Lab consumables,INV/IND/23611,R014,R008
+EX00186,PRC,AL102,travel,,,76838,2026-08-21,"Ministry review meeting, New Delhi",INV/GEN/65253,R056,R055
+EX00192,PMO,AL114,travel,,,33949,2026-08-21,Vendor factory acceptance visit,INV/GEN/54829,R060,R058
+EX00233,ECE,AL050,equipment,PO-2026-013,Orbit Datacom,1120193,2026-08-22,Test equipment,INV/ORB/55580,R024,R024
+EX00183,PRC,AL102,travel,,,65971,2026-08-29,Vendor factory acceptance visit,INV/GEN/77707,R056,R055
+EX00017,MEC,AL034,equipment,PO-2026-009,Sahyadri Cooling Tech,3240000,2026-08-31,Payment on delivery 60% - Chilled water piping loop,INV/SAH/10634,R021,R016
+EX00097,CIV,AL006,manpower,,,213000,2026-08-31,Project staff salaries Aug 2026,PAY/CIV/202608,R006,R058
+EX00098,EEE,AL022,manpower,,,299000,2026-08-31,Project staff salaries Aug 2026,PAY/EEE/202608,R013,R058
+EX00099,MEC,AL038,manpower,,,169000,2026-08-31,Project staff salaries Aug 2026,PAY/MEC/202608,R020,R058
+EX00100,ECE,AL054,manpower,,,600000,2026-08-31,Project staff salaries Aug 2026,PAY/ECE/202608,R032,R058
+EX00101,CSE,AL070,manpower,,,349000,2026-08-31,Project staff salaries Aug 2026,PAY/CSE/202608,R038,R058
+EX00102,PHY,AL082,manpower,,,341000,2026-08-31,Project staff salaries Aug 2026,PAY/PHY/202608,R053,R058
+EX00103,PMO,AL106,manpower,,,42000,2026-08-31,Project staff salaries Aug 2026,PAY/PMO/202608,R060,R058
+EX00012,EEE,AL018,equipment,PO-2026-006,Bharat Power Systems,5400000,2026-09-01,Payment on delivery 60% - DG set 1000 kVA,INV/BHA/4520,R012,R008
+EX00153,CSE,AL074,consumables,,Deccan Storage Solutions,17405,2026-09-01,Spares,INV/DEC/78783,R040,R036
+EX00122,EEE,AL026,consumables,,Tejas Electricals,169224,2026-09-06,Spares,INV/TEJ/87540,R013,R008
+EX00136,MEC,AL046,travel,,,24236,2026-09-08,Vendor factory acceptance visit,INV/GEN/5781,R022,R016
+EX00214,PHY,AL086,consumables,,Orbit Datacom,496412,2026-09-08,Bulk purchase,INV/ORB/44728,R048,R047
+EX00113,CIV,AL010,consumables,,Tejas Electricals,22568,2026-09-10,Lab consumables,INV/TEJ/94349,R002,R001
+EX00171,PHY,AL090,travel,,,150255,2026-09-10,HPC workshop,INV/GEN/80702,R048,R047
+EX00150,CSE,AL074,consumables,,Sahyadri Cooling Tech,65120,2026-09-14,Cabling & connectors,INV/SAH/66215,R042,R036

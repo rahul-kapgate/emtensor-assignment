@@ -1,0 +1,7 @@
+milestone_id,milestone_name,due_date,linked_task_ids,releases_tranche_id,reported_status
+M1,"Project sanctioned, governance board constituted",2025-10-21,PMO-01,T1,achieved
+M2,All major procurement awarded,2026-03-10,PRC-03;ECE-02,T2,achieved
+M3,Facility & power ready for racks,2026-07-28,CIV-07;EEE-05,,on_track
+M4,Compute & cooling installed,2026-10-26,ECE-05;ECE-07;MEC-06,T3,on_track
+M5,HPL benchmark on full system,2026-12-30,PHY-04,,on_track
+M6,Scientific acceptance & handover,2027-03-15,PMO-04,T4,on_track

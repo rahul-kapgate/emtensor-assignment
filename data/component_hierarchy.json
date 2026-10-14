@@ -1,0 +1,2297 @@
+{
+ "id": "SYS-001",
+ "name": "SHAKTI-1 Supercomputer",
+ "type": "system",
+ "owner_dept": "PMO",
+ "children": [
+  {
+   "id": "FAC-001",
+   "name": "Data hall facility",
+   "type": "subsystem",
+   "owner_dept": "CIV",
+   "children": [
+    {
+     "id": "FAC-RFL",
+     "name": "Raised floor (600 mm) & reinforcement",
+     "type": "assembly",
+     "owner_dept": "CIV",
+     "children": []
+    },
+    {
+     "id": "FAC-FSS",
+     "name": "Clean-agent fire suppression",
+     "type": "assembly",
+     "owner_dept": "CIV",
+     "children": []
+    },
+    {
+     "id": "FAC-SEC",
+     "name": "Access control & CCTV",
+     "type": "assembly",
+     "owner_dept": "CIV",
+     "children": []
+    }
+   ]
+  },
+  {
+   "id": "PWR-001",
+   "name": "Power subsystem",
+   "type": "subsystem",
+   "owner_dept": "EEE",
+   "children": [
+    {
+     "id": "PWR-SUB",
+     "name": "11 kV HT substation upgrade",
+     "type": "assembly",
+     "owner_dept": "EEE",
+     "children": []
+    },
+    {
+     "id": "PWR-UPS",
+     "name": "Modular UPS 500 kVA",
+     "type": "assembly",
+     "owner_dept": "EEE",
+     "children": []
+    },
+    {
+     "id": "PWR-DG",
+     "name": "DG set 1000 kVA",
+     "type": "assembly",
+     "owner_dept": "EEE",
+     "children": []
+    },
+    {
+     "id": "PWR-PDU",
+     "name": "Rack PDU bank",
+     "type": "assembly",
+     "owner_dept": "EEE",
+     "children": [
+      {
+       "id": "PWR-PDU-R1",
+       "name": "PDU pair for CPU rack 1",
+       "type": "part",
+       "owner_dept": "EEE",
+       "children": []
+      },
+      {
+       "id": "PWR-PDU-R2",
+       "name": "PDU pair for CPU rack 2",
+       "type": "part",
+       "owner_dept": "EEE",
+       "children": []
+      },
+      {
+       "id": "PWR-PDU-R3",
+       "name": "PDU pair for CPU rack 3",
+       "type": "part",
+       "owner_dept": "EEE",
+       "children": []
+      },
+      {
+       "id": "PWR-PDU-R4",
+       "name": "PDU pair for CPU rack 4",
+       "type": "part",
+       "owner_dept": "EEE",
+       "children": []
+      },
+      {
+       "id": "PWR-PDU-G1",
+       "name": "PDU pair for GPU rack 1",
+       "type": "part",
+       "owner_dept": "EEE",
+       "children": []
+      },
+      {
+       "id": "PWR-PDU-G2",
+       "name": "PDU pair for GPU rack 2",
+       "type": "part",
+       "owner_dept": "EEE",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CLG-001",
+   "name": "Cooling subsystem",
+   "type": "subsystem",
+   "owner_dept": "MEC",
+   "children": [
+    {
+     "id": "CLG-CHL",
+     "name": "Air-cooled chiller 300 TR",
+     "type": "assembly",
+     "owner_dept": "MEC",
+     "children": []
+    },
+    {
+     "id": "CLG-PIPE",
+     "name": "Chilled water piping loop",
+     "type": "assembly",
+     "owner_dept": "MEC",
+     "children": []
+    },
+    {
+     "id": "CLG-CDU",
+     "name": "Coolant distribution unit",
+     "type": "assembly",
+     "owner_dept": "MEC",
+     "children": []
+    },
+    {
+     "id": "CLG-RDX",
+     "name": "Rear-door heat exchanger bank",
+     "type": "assembly",
+     "owner_dept": "MEC",
+     "children": [
+      {
+       "id": "CLG-RDX-R1",
+       "name": "RDHx for CPU rack 1",
+       "type": "part",
+       "owner_dept": "MEC",
+       "children": []
+      },
+      {
+       "id": "CLG-RDX-R2",
+       "name": "RDHx for CPU rack 2",
+       "type": "part",
+       "owner_dept": "MEC",
+       "children": []
+      },
+      {
+       "id": "CLG-RDX-R3",
+       "name": "RDHx for CPU rack 3",
+       "type": "part",
+       "owner_dept": "MEC",
+       "children": []
+      },
+      {
+       "id": "CLG-RDX-R4",
+       "name": "RDHx for CPU rack 4",
+       "type": "part",
+       "owner_dept": "MEC",
+       "children": []
+      },
+      {
+       "id": "CLG-RDX-G1",
+       "name": "RDHx for GPU rack 1",
+       "type": "part",
+       "owner_dept": "MEC",
+       "children": []
+      },
+      {
+       "id": "CLG-RDX-G2",
+       "name": "RDHx for GPU rack 2",
+       "type": "part",
+       "owner_dept": "MEC",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "NET-001",
+   "name": "InfiniBand interconnect",
+   "type": "subsystem",
+   "owner_dept": "ECE",
+   "children": [
+    {
+     "id": "NET-SPN-01",
+     "name": "Core spine switch 1",
+     "type": "part",
+     "owner_dept": "ECE",
+     "children": []
+    },
+    {
+     "id": "NET-SPN-02",
+     "name": "Core spine switch 2",
+     "type": "part",
+     "owner_dept": "ECE",
+     "children": []
+    },
+    {
+     "id": "NET-LEF-R1",
+     "name": "Leaf switch CPU rack 1",
+     "type": "part",
+     "owner_dept": "ECE",
+     "children": []
+    },
+    {
+     "id": "NET-LEF-R2",
+     "name": "Leaf switch CPU rack 2",
+     "type": "part",
+     "owner_dept": "ECE",
+     "children": []
+    },
+    {
+     "id": "NET-LEF-R3",
+     "name": "Leaf switch CPU rack 3",
+     "type": "part",
+     "owner_dept": "ECE",
+     "children": []
+    },
+    {
+     "id": "NET-LEF-R4",
+     "name": "Leaf switch CPU rack 4",
+     "type": "part",
+     "owner_dept": "ECE",
+     "children": []
+    },
+    {
+     "id": "NET-LEF-G1",
+     "name": "Leaf switch GPU rack 1",
+     "type": "part",
+     "owner_dept": "ECE",
+     "children": []
+    },
+    {
+     "id": "NET-LEF-G2",
+     "name": "Leaf switch GPU rack 2",
+     "type": "part",
+     "owner_dept": "ECE",
+     "children": []
+    }
+   ]
+  },
+  {
+   "id": "STO-001",
+   "name": "Parallel storage (2 PB)",
+   "type": "subsystem",
+   "owner_dept": "CSE",
+   "children": [
+    {
+     "id": "STO-MDS",
+     "name": "Metadata servers",
+     "type": "assembly",
+     "owner_dept": "CSE",
+     "children": []
+    },
+    {
+     "id": "STO-OSS",
+     "name": "Object storage servers",
+     "type": "assembly",
+     "owner_dept": "CSE",
+     "children": []
+    },
+    {
+     "id": "STO-JBD",
+     "name": "Disk enclosures (84-bay)",
+     "type": "assembly",
+     "owner_dept": "CSE",
+     "children": []
+    }
+   ]
+  },
+  {
+   "id": "CMP-001",
+   "name": "Compute subsystem",
+   "type": "subsystem",
+   "owner_dept": "ECE",
+   "children": [
+    {
+     "id": "CMP-CPU",
+     "name": "CPU partition",
+     "type": "assembly",
+     "owner_dept": "ECE",
+     "children": [
+      {
+       "id": "CMP-CPU-R1",
+       "name": "CPU rack 1",
+       "type": "rack",
+       "owner_dept": "ECE",
+       "children": [
+        {
+         "id": "CMP-CPU-R1-N01",
+         "name": "CPU node 1-01",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R1-N01-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R1-N01-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R1-N02",
+         "name": "CPU node 1-02",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R1-N02-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R1-N02-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R1-N03",
+         "name": "CPU node 1-03",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R1-N03-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R1-N03-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R1-N04",
+         "name": "CPU node 1-04",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R1-N04-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R1-N04-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R1-N05",
+         "name": "CPU node 1-05",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R1-N05-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R1-N05-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R1-N06",
+         "name": "CPU node 1-06",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R1-N06-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R1-N06-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R1-N07",
+         "name": "CPU node 1-07",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R1-N07-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R1-N07-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R1-N08",
+         "name": "CPU node 1-08",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R1-N08-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R1-N08-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R1-N09",
+         "name": "CPU node 1-09",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R1-N09-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R1-N09-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R1-N10",
+         "name": "CPU node 1-10",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R1-N10-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R1-N10-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R1-N11",
+         "name": "CPU node 1-11",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R1-N11-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R1-N11-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R1-N12",
+         "name": "CPU node 1-12",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R1-N12-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R1-N12-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R1-N13",
+         "name": "CPU node 1-13",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R1-N13-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R1-N13-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R1-N14",
+         "name": "CPU node 1-14",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R1-N14-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R1-N14-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R1-N15",
+         "name": "CPU node 1-15",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R1-N15-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R1-N15-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R1-N16",
+         "name": "CPU node 1-16",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R1-N16-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R1-N16-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "CMP-CPU-R2",
+       "name": "CPU rack 2",
+       "type": "rack",
+       "owner_dept": "ECE",
+       "children": [
+        {
+         "id": "CMP-CPU-R2-N01",
+         "name": "CPU node 2-01",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R2-N01-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R2-N01-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R2-N02",
+         "name": "CPU node 2-02",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R2-N02-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R2-N02-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R2-N03",
+         "name": "CPU node 2-03",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R2-N03-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R2-N03-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R2-N04",
+         "name": "CPU node 2-04",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R2-N04-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R2-N04-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R2-N05",
+         "name": "CPU node 2-05",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R2-N05-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R2-N05-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R2-N06",
+         "name": "CPU node 2-06",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R2-N06-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R2-N06-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R2-N07",
+         "name": "CPU node 2-07",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R2-N07-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R2-N07-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R2-N08",
+         "name": "CPU node 2-08",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R2-N08-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R2-N08-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R2-N09",
+         "name": "CPU node 2-09",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R2-N09-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R2-N09-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R2-N10",
+         "name": "CPU node 2-10",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R2-N10-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R2-N10-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R2-N11",
+         "name": "CPU node 2-11",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R2-N11-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R2-N11-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R2-N12",
+         "name": "CPU node 2-12",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R2-N12-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R2-N12-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R2-N13",
+         "name": "CPU node 2-13",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R2-N13-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R2-N13-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R2-N14",
+         "name": "CPU node 2-14",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R2-N14-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R2-N14-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R2-N15",
+         "name": "CPU node 2-15",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R2-N15-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R2-N15-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R2-N16",
+         "name": "CPU node 2-16",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R2-N16-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R2-N16-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "CMP-CPU-R3",
+       "name": "CPU rack 3",
+       "type": "rack",
+       "owner_dept": "ECE",
+       "children": [
+        {
+         "id": "CMP-CPU-R3-N01",
+         "name": "CPU node 3-01",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R3-N01-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R3-N01-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R3-N02",
+         "name": "CPU node 3-02",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R3-N02-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R3-N02-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R3-N03",
+         "name": "CPU node 3-03",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R3-N03-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R3-N03-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R3-N04",
+         "name": "CPU node 3-04",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R3-N04-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R3-N04-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R3-N05",
+         "name": "CPU node 3-05",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R3-N05-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R3-N05-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R3-N06",
+         "name": "CPU node 3-06",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R3-N06-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R3-N06-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R3-N07",
+         "name": "CPU node 3-07",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R3-N07-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R3-N07-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R3-N08",
+         "name": "CPU node 3-08",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R3-N08-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R3-N08-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R3-N09",
+         "name": "CPU node 3-09",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R3-N09-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R3-N09-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R3-N10",
+         "name": "CPU node 3-10",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R3-N10-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R3-N10-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R3-N11",
+         "name": "CPU node 3-11",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R3-N11-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R3-N11-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R3-N12",
+         "name": "CPU node 3-12",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R3-N12-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R3-N12-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R3-N13",
+         "name": "CPU node 3-13",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R3-N13-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R3-N13-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R3-N14",
+         "name": "CPU node 3-14",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R3-N14-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R3-N14-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R3-N15",
+         "name": "CPU node 3-15",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R3-N15-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R3-N15-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R3-N16",
+         "name": "CPU node 3-16",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R3-N16-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R3-N16-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "CMP-CPU-R4",
+       "name": "CPU rack 4",
+       "type": "rack",
+       "owner_dept": "ECE",
+       "children": [
+        {
+         "id": "CMP-CPU-R4-N01",
+         "name": "CPU node 4-01",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R4-N01-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R4-N01-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R4-N02",
+         "name": "CPU node 4-02",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R4-N02-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R4-N02-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R4-N03",
+         "name": "CPU node 4-03",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R4-N03-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R4-N03-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R4-N04",
+         "name": "CPU node 4-04",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R4-N04-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R4-N04-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R4-N05",
+         "name": "CPU node 4-05",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R4-N05-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R4-N05-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R4-N06",
+         "name": "CPU node 4-06",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R4-N06-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R4-N06-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R4-N07",
+         "name": "CPU node 4-07",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R4-N07-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R4-N07-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R4-N08",
+         "name": "CPU node 4-08",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R4-N08-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R4-N08-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R4-N09",
+         "name": "CPU node 4-09",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R4-N09-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R4-N09-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R4-N10",
+         "name": "CPU node 4-10",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R4-N10-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R4-N10-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R4-N11",
+         "name": "CPU node 4-11",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R4-N11-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R4-N11-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R4-N12",
+         "name": "CPU node 4-12",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R4-N12-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R4-N12-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R4-N13",
+         "name": "CPU node 4-13",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R4-N13-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R4-N13-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R4-N14",
+         "name": "CPU node 4-14",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R4-N14-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R4-N14-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R4-N15",
+         "name": "CPU node 4-15",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R4-N15-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R4-N15-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-CPU-R4-N16",
+         "name": "CPU node 4-16",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-CPU-R4-N16-CPU",
+           "name": "96-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-CPU-R4-N16-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "CMP-GPU",
+     "name": "GPU partition",
+     "type": "assembly",
+     "owner_dept": "ECE",
+     "children": [
+      {
+       "id": "CMP-GPU-R1",
+       "name": "GPU rack 1",
+       "type": "rack",
+       "owner_dept": "ECE",
+       "children": [
+        {
+         "id": "CMP-GPU-R1-N01",
+         "name": "GPU node 1-01",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-GPU-R1-N01-CPU",
+           "name": "64-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R1-N01-GPU",
+           "name": "Data-centre GPU 80 GB",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R1-N01-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-GPU-R1-N02",
+         "name": "GPU node 1-02",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-GPU-R1-N02-CPU",
+           "name": "64-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R1-N02-GPU",
+           "name": "Data-centre GPU 80 GB",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R1-N02-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-GPU-R1-N03",
+         "name": "GPU node 1-03",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-GPU-R1-N03-CPU",
+           "name": "64-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R1-N03-GPU",
+           "name": "Data-centre GPU 80 GB",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R1-N03-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-GPU-R1-N04",
+         "name": "GPU node 1-04",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-GPU-R1-N04-CPU",
+           "name": "64-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R1-N04-GPU",
+           "name": "Data-centre GPU 80 GB",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R1-N04-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-GPU-R1-N05",
+         "name": "GPU node 1-05",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-GPU-R1-N05-CPU",
+           "name": "64-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R1-N05-GPU",
+           "name": "Data-centre GPU 80 GB",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R1-N05-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-GPU-R1-N06",
+         "name": "GPU node 1-06",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-GPU-R1-N06-CPU",
+           "name": "64-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R1-N06-GPU",
+           "name": "Data-centre GPU 80 GB",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R1-N06-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-GPU-R1-N07",
+         "name": "GPU node 1-07",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-GPU-R1-N07-CPU",
+           "name": "64-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R1-N07-GPU",
+           "name": "Data-centre GPU 80 GB",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R1-N07-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-GPU-R1-N08",
+         "name": "GPU node 1-08",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-GPU-R1-N08-CPU",
+           "name": "64-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R1-N08-GPU",
+           "name": "Data-centre GPU 80 GB",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R1-N08-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "CMP-GPU-R2",
+       "name": "GPU rack 2",
+       "type": "rack",
+       "owner_dept": "ECE",
+       "children": [
+        {
+         "id": "CMP-GPU-R2-N01",
+         "name": "GPU node 2-01",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-GPU-R2-N01-CPU",
+           "name": "64-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R2-N01-GPU",
+           "name": "Data-centre GPU 80 GB",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R2-N01-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-GPU-R2-N02",
+         "name": "GPU node 2-02",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-GPU-R2-N02-CPU",
+           "name": "64-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R2-N02-GPU",
+           "name": "Data-centre GPU 80 GB",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R2-N02-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-GPU-R2-N03",
+         "name": "GPU node 2-03",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-GPU-R2-N03-CPU",
+           "name": "64-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R2-N03-GPU",
+           "name": "Data-centre GPU 80 GB",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R2-N03-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-GPU-R2-N04",
+         "name": "GPU node 2-04",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-GPU-R2-N04-CPU",
+           "name": "64-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R2-N04-GPU",
+           "name": "Data-centre GPU 80 GB",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R2-N04-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-GPU-R2-N05",
+         "name": "GPU node 2-05",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-GPU-R2-N05-CPU",
+           "name": "64-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R2-N05-GPU",
+           "name": "Data-centre GPU 80 GB",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R2-N05-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-GPU-R2-N06",
+         "name": "GPU node 2-06",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-GPU-R2-N06-CPU",
+           "name": "64-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R2-N06-GPU",
+           "name": "Data-centre GPU 80 GB",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R2-N06-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-GPU-R2-N07",
+         "name": "GPU node 2-07",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-GPU-R2-N07-CPU",
+           "name": "64-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R2-N07-GPU",
+           "name": "Data-centre GPU 80 GB",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R2-N07-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "CMP-GPU-R2-N08",
+         "name": "GPU node 2-08",
+         "type": "node",
+         "owner_dept": "ECE",
+         "children": [
+          {
+           "id": "CMP-GPU-R2-N08-CPU",
+           "name": "64-core CPU",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R2-N08-GPU",
+           "name": "Data-centre GPU 80 GB",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          },
+          {
+           "id": "CMP-GPU-R2-N08-MEM",
+           "name": "64 GB DDR5 DIMM",
+           "type": "part",
+           "owner_dept": "ECE",
+           "children": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "SW-001",
+   "name": "System software",
+   "type": "subsystem",
+   "owner_dept": "CSE",
+   "children": [
+    {
+     "id": "SW-OS",
+     "name": "OS image & provisioning",
+     "type": "assembly",
+     "owner_dept": "CSE",
+     "children": []
+    },
+    {
+     "id": "SW-SCH",
+     "name": "Slurm workload manager",
+     "type": "assembly",
+     "owner_dept": "CSE",
+     "children": []
+    },
+    {
+     "id": "SW-MON",
+     "name": "Monitoring & telemetry",
+     "type": "assembly",
+     "owner_dept": "CSE",
+     "children": []
+    },
+    {
+     "id": "SW-PRT",
+     "name": "User portal",
+     "type": "assembly",
+     "owner_dept": "CSE",
+     "children": []
+    }
+   ]
+  },
+  {
+   "id": "APP-001",
+   "name": "Scientific applications",
+   "type": "subsystem",
+   "owner_dept": "PHY",
+   "children": [
+    {
+     "id": "APP-CLM",
+     "name": "Regional climate model",
+     "type": "assembly",
+     "owner_dept": "PHY",
+     "children": []
+    },
+    {
+     "id": "APP-MD",
+     "name": "Molecular dynamics suite",
+     "type": "assembly",
+     "owner_dept": "PHY",
+     "children": []
+    },
+    {
+     "id": "APP-HPL",
+     "name": "HPL / HPCG benchmarks",
+     "type": "assembly",
+     "owner_dept": "PHY",
+     "children": []
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+dept_id,dept_name,scope,total_budget_inr,head_researcher_id
+CIV,Civil Engineering,"Data hall, raised floor, fire safety, facility handover",33800000,R001
+EEE,Electrical & Electronics Engg,"HT substation, UPS, DG backup, rack power",65800000,R008
+MEC,Mechanical Engineering,"Chillers, piping loop, CDUs, rear-door heat exchangers",69800000,R016
+ECE,Electronics & Communication Engg,"Compute racks, GPU racks, InfiniBand fabric",249800000,R024
+CSE,Computer Science & Engg,"Storage, OS provisioning, scheduler, monitoring, user portal",62800000,R036
+PHY,Physics,"Scientific applications, porting, benchmarks, acceptance",18000000,R047
+PRC,Central Procurement Cell,"Vendor empanelment, GeM tenders, evaluation committee",1800000,R055
+PMO,Project Management Office,"Governance, ministry reporting, contingency",29000000,R058
