@@ -1,11 +1,11 @@
 from fastapi import APIRouter
 
-router = APIRouter(prefix="/api")
+from app.api.routes import health
 
 
-@router.get("/health")
-def health_check():
-    return {
-        "success": True,
-        "status": "healthy",
-    }
+api_router = APIRouter(prefix="/api")
+
+api_router.include_router(
+    health.router,
+    tags=["System"],
+)
