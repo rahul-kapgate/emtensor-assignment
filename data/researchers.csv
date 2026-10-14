@@ -1,0 +1,62 @@
+researcher_id,full_name,dept_id,role,email,project_allocation_pct,monthly_cost_inr,joined_on,left_on,status
+R001,Abhishek Hegde,CIV,Professor & Dept Lead,abhishek.hegde1@vit-shakti.ac.in,50,0,2025-10-01,,active
+R002,Venkat Qureshi,CIV,Research Scholar,venkat.qureshi2@vit-shakti.ac.in,30,42000,2025-10-01,,active
+R003,Imran Mishra,CIV,Research Scholar,imran.mishra3@vit-shakti.ac.in,30,42000,2025-10-01,,active
+R004,Nandini Gupta,CIV,Research Scholar,nandini.gupta4@vit-shakti.ac.in,20,42000,2025-11-30,,active
+R005,Kiran Iyer,CIV,Technician,kiran.iyer5@vit-shakti.ac.in,100,45000,2025-11-30,,active
+R006,Abhishek Mishra,CIV,Research Scholar,abhishek.mishra6@vit-shakti.ac.in,30,42000,2025-11-30,,active
+R007,Swathi Reddy,CIV,Co-Investigator,swathi.reddy7@vit-shakti.ac.in,20,0,2025-10-01,,active
+R008,Siddharth Singh,EEE,Professor & Dept Lead,siddharth.singh8@vit-shakti.ac.in,20,0,2025-10-01,,active
+R009,Farhan Pillai,EEE,Research Scholar,farhan.pillai9@vit-shakti.ac.in,30,42000,2025-11-30,,active
+R010,Kiran Das,EEE,Project Engineer,kiran.das10@vit-shakti.ac.in,100,85000,2025-10-31,,active
+R011,Sameer Reddy,EEE,Co-Investigator,sameer.reddy11@vit-shakti.ac.in,50,0,2026-01-29,,active
+R012,Suresh Hegde,EEE,Project Engineer,suresh.hegde12@vit-shakti.ac.in,100,85000,2025-10-01,,active
+R013,Aditya Rao,EEE,Technician,aditya.rao13@vit-shakti.ac.in,100,45000,2025-10-01,,active
+R014,Manish Sharma,EEE,Research Scholar,manish.sharma14@vit-shakti.ac.in,20,42000,2025-11-30,,active
+R015,Mary Nair,EEE,Co-Investigator,mary.nair15@vit-shakti.ac.in,40,0,2025-10-31,,active
+R016,Karthik Sharma,MEC,Professor & Dept Lead,karthik.sharma16@vit-shakti.ac.in,20,0,2025-10-01,,active
+R017,Ishita Iyer,MEC,Project Engineer,ishita.iyer17@vit-shakti.ac.in,100,85000,2025-10-31,,active
+R018,Asha Joshi,MEC,Research Scholar,asha.joshi18@vit-shakti.ac.in,50,42000,2025-10-01,2026-05-29,exited
+R019,Kiran Khan,MEC,Research Scholar,kiran.khan19@vit-shakti.ac.in,40,42000,2025-10-16,,active
+R020,Nandini Rao,MEC,Co-Investigator,nandini.rao20@vit-shakti.ac.in,20,0,2025-10-31,,active
+R021,Arjun Singh,MEC,Co-Investigator,arjun.singh21@vit-shakti.ac.in,20,0,2025-10-01,,active
+R022,Tanvi Mehta,MEC,Co-Investigator,tanvi.mehta22@vit-shakti.ac.in,30,0,2026-01-29,,active
+R023,Siddharth Pillai,MEC,Research Scholar,siddharth.pillai23@vit-shakti.ac.in,30,42000,2026-01-29,,active
+R024,Arjun Banerjee,ECE,Professor & Dept Lead,arjun.banerjee24@vit-shakti.ac.in,50,0,2025-10-01,,active
+R025,Mary Banerjee,ECE,Co-Investigator,mary.banerjee25@vit-shakti.ac.in,30,0,2025-10-01,,active
+R026,Shruti Das,ECE,Project Engineer,shruti.das26@vit-shakti.ac.in,100,85000,2025-10-01,,active
+R027,Kavya Joshi,ECE,Project Engineer,kavya.joshi27@vit-shakti.ac.in,100,85000,2025-11-30,,active
+R028,Pranav Nair,ECE,Technician,pranav.nair28@vit-shakti.ac.in,100,45000,2025-10-01,,active
+R029,Ishita Pillai,ECE,Project Engineer,ishita.pillai29@vit-shakti.ac.in,100,85000,2025-10-16,,active
+R030,Anjali Rao,ECE,Co-Investigator,anjali.rao30@vit-shakti.ac.in,40,0,2025-10-31,,active
+R031,Karthik Reddy,ECE,Co-Investigator,karthik.reddy31@vit-shakti.ac.in,30,0,2025-11-30,,active
+R032,Pooja Sharma,ECE,Technician,pooja.sharma32@vit-shakti.ac.in,100,45000,2025-11-30,,active
+R033,Gurleen Fernandes,ECE,Project Engineer,gurleen.fernandes33@vit-shakti.ac.in,100,85000,2025-10-31,,active
+R034,Shruti Mehta,ECE,Project Engineer,shruti.mehta34@vit-shakti.ac.in,100,85000,2025-11-30,,active
+R035,Joseph Menon,ECE,Project Engineer,joseph.menon35@vit-shakti.ac.in,100,85000,2026-01-29,,active
+R036,Divya Das,CSE,Professor & Dept Lead,divya.das36@vit-shakti.ac.in,30,0,2025-10-01,,active
+R037,Pooja Naidu,CSE,Research Scholar,pooja.naidu37@vit-shakti.ac.in,30,42000,2025-10-01,,active
+R038,Kiran Hegde,CSE,Technician,kiran.hegde38@vit-shakti.ac.in,100,45000,2025-10-01,,active
+R039,Joseph Mehta,CSE,Technician,joseph.mehta39@vit-shakti.ac.in,100,45000,2025-11-30,,active
+R040,Suresh Iyer,CSE,Co-Investigator,suresh.iyer40@vit-shakti.ac.in,20,0,2025-10-01,,active
+R041,Venkat Patel,CSE,Co-Investigator,venkat.patel41@vit-shakti.ac.in,30,0,2026-01-29,,active
+R042,Mary Patel,CSE,Technician,mary.patel42@vit-shakti.ac.in,100,45000,2025-10-31,,active
+R043,Ayesha Das,CSE,Research Scholar,ayesha.das43@vit-shakti.ac.in,30,42000,2026-01-29,,on_leave
+R044,Arjun Singh,CSE,Co-Investigator,arjun.singh44@vit-shakti.ac.in,50,0,2025-11-30,,active
+R045,Anjali Fernandes,CSE,Technician,anjali.fernandes45@vit-shakti.ac.in,100,45000,2025-10-01,,active
+R046,Ishita Khan,CSE,Project Engineer,ishita.khan46@vit-shakti.ac.in,100,85000,2026-01-29,,active
+R047,Ananya Reddy,PHY,Professor & Dept Lead,ananya.reddy47@vit-shakti.ac.in,40,0,2025-10-01,,active
+R048,Abhishek Singh,PHY,Research Scholar,abhishek.singh48@vit-shakti.ac.in,20,42000,2025-10-01,,active
+R049,Manish Kulkarni,PHY,Project Engineer,manish.kulkarni49@vit-shakti.ac.in,100,85000,2025-11-30,,active
+R050,Arjun Reddy,PHY,Research Scholar,arjun.reddy50@vit-shakti.ac.in,40,42000,2025-10-01,,active
+R051,Zoya Bhat,PHY,Research Scholar,zoya.bhat51@vit-shakti.ac.in,30,42000,2025-11-30,,active
+R052,Ananya Mehta,PHY,Co-Investigator,ananya.mehta52@vit-shakti.ac.in,40,0,2026-01-29,,active
+R053,Rohan Sharma,PHY,Project Engineer,rohan.sharma53@vit-shakti.ac.in,100,85000,2025-11-30,,active
+R054,Karthik Mehta,PHY,Technician,karthik.mehta54@vit-shakti.ac.in,100,45000,2025-10-01,,active
+R055,Nandini Rao,PRC,Professor & Dept Lead,nandini.rao55@vit-shakti.ac.in,30,0,2025-10-01,,active
+R056,Karthik Pillai,PRC,Co-Investigator,karthik.pillai56@vit-shakti.ac.in,40,0,2026-01-29,,active
+R057,Asha Gupta,PRC,Co-Investigator,asha.gupta57@vit-shakti.ac.in,40,0,2025-10-16,,active
+R058,Meera Bhat,PMO,Principal Investigator,meera.bhat58@vit-shakti.ac.in,50,0,2025-10-01,,active
+R059,Suresh Sharma,PMO,Co-Investigator,suresh.sharma59@vit-shakti.ac.in,50,0,2025-11-30,,active
+R060,Anjali Bhat,PMO,Co-Investigator,anjali.bhat60@vit-shakti.ac.in,50,0,2025-10-31,,active
+R061,Aarav Fernandes,PMO,Research Scholar,aarav.fernandes61@vit-shakti.ac.in,20,42000,2025-10-01,,active

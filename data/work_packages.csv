@@ -1,0 +1,59 @@
+task_id,parent_task_id,dept_id,task_name,component_id,owner_researcher_id,planned_start,planned_end,actual_start,actual_end,status
+WP-CIV,,CIV,Civil Engineering work package,,R001,,,,,
+WP-EEE,,EEE,Electrical & Electronics Engg work package,,R008,,,,,
+WP-MEC,,MEC,Mechanical Engineering work package,,R016,,,,,
+WP-ECE,,ECE,Electronics & Communication Engg work package,,R024,,,,,
+WP-CSE,,CSE,Computer Science & Engg work package,,R036,,,,,
+WP-PHY,,PHY,Physics work package,,R047,,,,,
+WP-PRC,,PRC,Central Procurement Cell work package,,R055,,,,,
+WP-PMO,,PMO,Project Management Office work package,,R058,,,,,
+PMO-01,WP-PMO,PMO,Project charter & governance board,SYS-001,R058,2025-10-01,2025-10-21,2025-10-08,2025-10-29,completed
+PMO-02,WP-PMO,PMO,Quarterly progress reporting to ministry,SYS-001,R059,2025-12-30,2027-03-15,2026-01-10,,in_progress
+PMO-03,WP-PMO,PMO,Utilisation certificate for tranche 1,SYS-001,R059,2026-02-28,2026-03-30,2026-02-27,2026-04-01,completed
+PMO-04,WP-PMO,PMO,Final acceptance & handover to institute,SYS-001,R061,2027-02-18,2027-03-15,,,not_started
+PRC-01,WP-PRC,PRC,Vendor empanelment,SYS-001,R055,2025-10-01,2025-11-15,2025-10-30,2025-12-26,completed
+PRC-02,WP-PRC,PRC,"GeM tender publication (compute, network, storage)",SYS-001,R056,2025-11-15,2025-12-15,2025-12-27,2026-01-29,completed
+PRC-03,WP-PRC,PRC,Technical evaluation committee & award,SYS-001,R057,2025-12-15,2026-01-24,2026-01-30,2026-03-12,completed
+CIV-01,WP-CIV,CIV,Site survey & structural assessment,FAC-001,R003,2025-10-01,2025-10-31,2025-10-12,2025-11-14,completed
+CIV-02,WP-CIV,CIV,Data hall design approval,FAC-001,R003,2025-10-31,2025-12-15,2025-11-15,2026-01-01,completed
+CIV-03,WP-CIV,CIV,Civil works tender & award,FAC-001,R007,2025-12-15,2026-01-24,2026-01-02,2026-02-11,completed
+CIV-04,WP-CIV,CIV,Raised floor & structural reinforcement,FAC-RFL,R001,2026-01-24,2026-04-24,2026-02-12,2026-06-02,completed
+CIV-05,WP-CIV,CIV,Fire suppression system,FAC-FSS,R003,2026-04-24,2026-06-13,2026-06-03,2026-07-24,completed
+CIV-06,WP-CIV,CIV,Access control & CCTV,FAC-SEC,R006,2026-04-29,2026-05-29,2026-06-03,2026-07-06,completed
+CIV-07,WP-CIV,CIV,Facility handover certificate,FAC-001,R001,2026-06-18,2026-07-03,2026-06-22,2026-08-11,completed
+EEE-01,WP-EEE,EEE,Load calculation & power design,PWR-001,R008,2025-10-16,2025-11-25,2025-10-19,2025-12-03,completed
+EEE-02,WP-EEE,EEE,HT substation upgrade,PWR-SUB,R011,2025-11-30,2026-03-30,2025-12-04,2026-05-21,completed
+EEE-03,WP-EEE,EEE,UPS procurement,PWR-UPS,R010,2025-11-30,2026-02-28,2025-12-07,2026-03-23,completed
+EEE-04,WP-EEE,EEE,UPS installation & commissioning,PWR-UPS,R012,2026-04-09,2026-05-19,2026-06-03,2026-07-14,completed
+EEE-05,WP-EEE,EEE,Rack PDU installation,PWR-PDU,R011,2026-05-29,2026-07-13,2026-08-12,,in_progress
+EEE-06,WP-EEE,EEE,DG set backup,PWR-DG,R015,2026-03-30,2026-06-28,2026-05-22,2026-08-18,In Progress
+EEE-07,WP-EEE,EEE,Power quality audit,PWR-001,R010,2026-07-28,2026-08-17,,,not_started
+MEC-01,WP-MEC,MEC,Thermal load study,CLG-001,R023,2025-10-16,2025-11-30,2025-10-16,2025-12-04,completed
+MEC-02,WP-MEC,MEC,Chiller procurement,CLG-CHL,R016,2025-12-10,2026-04-09,2025-12-15,2026-06-03,completed
+MEC-03,WP-MEC,MEC,Chilled water piping loop,CLG-PIPE,R019,2026-04-19,2026-06-18,2026-06-04,2026-08-08,completed
+MEC-04,WP-MEC,MEC,CDU installation,CLG-CDU,R017,2026-06-18,2026-07-28,2026-08-09,,in_progress
+MEC-05,WP-MEC,MEC,Rear-door heat exchangers,CLG-RDX,R022,2026-07-08,2026-08-22,,,not_started
+MEC-06,WP-MEC,MEC,Cooling commissioning & leak test,CLG-001,R016,2026-08-27,2026-09-21,,,not_started
+ECE-01,WP-ECE,ECE,Compute architecture finalisation,CMP-001,R026,2025-10-01,2025-11-30,2025-09-28,2025-11-30,completed
+ECE-02,WP-ECE,ECE,Compute hardware tender evaluation,CMP-001,R034,2025-12-15,2026-01-29,2026-03-13,2026-04-30,completed
+ECE-03,WP-ECE,ECE,CPU rack delivery & inspection,CMP-CPU,R030,2026-04-19,2026-06-18,2026-05-01,2026-07-11,completed
+ECE-04,WP-ECE,ECE,CPU rack installation R1-R2,CMP-CPU,R026,2026-06-28,2026-08-07,,,not_started
+ECE-05,WP-ECE,ECE,CPU rack installation R3-R4,CMP-CPU,R033,2026-08-07,2026-09-16,,,not_started
+ECE-06,WP-ECE,ECE,GPU rack delivery & inspection,CMP-GPU,R026,2026-05-29,2026-08-27,2026-06-07,,in_progress
+ECE-07,WP-ECE,ECE,GPU rack installation,CMP-GPU,R034,2026-09-06,2026-10-21,,,not_started
+ECE-08,WP-ECE,ECE,InfiniBand fabric design,NET-001,R034,2025-11-30,2026-01-14,2025-12-05,2026-01-25,completed
+ECE-09,WP-ECE,ECE,Network switch procurement,NET-001,R033,2026-01-19,2026-04-29,2026-03-13,2026-07-08,completed
+ECE-10,WP-ECE,ECE,Fabric cabling & validation,NET-001,R033,2026-07-28,2026-09-26,,,not_started
+CSE-01,WP-CSE,CSE,Storage architecture,STO-001,R043,2025-10-31,2025-12-15,2025-11-03,2025-12-18,completed
+CSE-02,WP-CSE,CSE,Storage procurement,STO-001,R044,2025-12-20,2026-04-19,2026-03-13,2026-07-15,completed
+CSE-03,WP-CSE,CSE,Parallel filesystem deployment,STO-001,R036,2026-08-27,2026-10-11,,,not_started
+CSE-04,WP-CSE,CSE,OS image & node provisioning,SW-OS,R046,2026-06-08,2026-08-07,2026-06-07,2026-08-13,completed
+CSE-05,WP-CSE,CSE,Slurm scheduler setup,SW-SCH,R037,2026-08-27,2026-10-06,,,not_started
+CSE-06,WP-CSE,CSE,Monitoring & telemetry stack,SW-MON,R041,2026-08-27,2026-10-16,2026-08-30,,in_progress
+CSE-07,WP-CSE,CSE,User portal & accounts,SW-PRT,R043,2026-10-06,2026-12-05,,,not_started
+CSE-08,WP-CSE,CSE,Security hardening & audit,SW-001,R043,2026-12-05,2027-01-04,,,not_started
+PHY-01,WP-PHY,PHY,Application requirement survey,APP-001,R049,2025-10-31,2025-12-30,2025-11-01,2026-01-13,completed
+PHY-02,WP-PHY,PHY,Climate model porting,APP-CLM,R053,2026-01-29,2026-09-26,2026-01-29,,in_progress
+PHY-03,WP-PHY,PHY,Molecular dynamics porting,APP-MD,R052,2026-01-29,2026-08-17,2026-02-06,,in_progress
+PHY-04,WP-PHY,PHY,HPL benchmark run,APP-HPL,R051,2026-11-25,2026-12-25,,,not_started
+PHY-05,WP-PHY,PHY,Scientific acceptance tests,APP-001,R052,2026-12-30,2027-02-13,2026-08-16,2026-09-10,completed
