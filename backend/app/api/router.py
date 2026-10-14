@@ -5,14 +5,22 @@ from app.api.routes import (
     budget,
     dependencies,
     health,
+    overview,
 )
 
 
-api_router = APIRouter(prefix="/api")
+api_router = APIRouter(
+    prefix="/api"
+)
 
 api_router.include_router(
     health.router,
     tags=["System"],
+)
+
+api_router.include_router(
+    overview.router,
+    tags=["Project"],
 )
 
 api_router.include_router(
