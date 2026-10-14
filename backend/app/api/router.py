@@ -4,8 +4,10 @@ from app.api.routes import (
     anomalies,
     budget,
     dependencies,
+    departments,
     health,
     overview,
+    people,
 )
 
 
@@ -36,4 +38,14 @@ api_router.include_router(
 api_router.include_router(
     dependencies.router,
     tags=["Dependencies"],
+)
+
+api_router.include_router(
+    departments.router,
+    tags=["Departments"],
+)
+
+api_router.include_router(
+    people.router,
+    tags=["People"],
 )
