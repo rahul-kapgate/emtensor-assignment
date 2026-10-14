@@ -1,6 +1,11 @@
 from fastapi import APIRouter
 
-from app.api.routes import anomalies, budget, health
+from app.api.routes import (
+    anomalies,
+    budget,
+    dependencies,
+    health,
+)
 
 
 api_router = APIRouter(prefix="/api")
@@ -18,4 +23,9 @@ api_router.include_router(
 api_router.include_router(
     budget.router,
     tags=["Budget"],
+)
+
+api_router.include_router(
+    dependencies.router,
+    tags=["Dependencies"],
 )
