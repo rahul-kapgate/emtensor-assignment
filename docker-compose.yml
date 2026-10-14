@@ -1,0 +1,18 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+
+    container_name: emtensor-backend
+
+    ports:
+      - "8000:8000"
+
+    environment:
+      DATA_DIR: /data
+
+    volumes:
+      - ./data:/data:ro
+
+    restart: unless-stopped
