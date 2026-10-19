@@ -1,10 +1,54 @@
+import {
+  BrowserRouter,
+  Route,
+  Routes,
+} from "react-router-dom";
+
+import { AppLayout } from "@/layouts/AppLayout";
+import { BudgetPage } from "@/pages/BudgetPage";
+import { DependenciesPage } from "@/pages/DependenciesPage";
+import { DepartmentsPage } from "@/pages/DepartmentsPage";
+import { IssuesPage } from "@/pages/IssuesPage";
+import { OverviewPage } from "@/pages/OverviewPage";
+import { PeoplePage } from "@/pages/PeoplePage";
+
 function App() {
   return (
-    <main className="min-h-screen bg-slate-950 text-white flex items-center justify-center">
-      <h1 className="text-4xl font-bold">
-        EMTensor Assignment
-      </h1>
-    </main>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<AppLayout />}>
+          <Route
+            path="/"
+            element={<OverviewPage />}
+          />
+
+          <Route
+            path="/departments"
+            element={<DepartmentsPage />}
+          />
+
+          <Route
+            path="/dependencies"
+            element={<DependenciesPage />}
+          />
+
+          <Route
+            path="/budget"
+            element={<BudgetPage />}
+          />
+
+          <Route
+            path="/people"
+            element={<PeoplePage />}
+          />
+
+          <Route
+            path="/issues"
+            element={<IssuesPage />}
+          />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
