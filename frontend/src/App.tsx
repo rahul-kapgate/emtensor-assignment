@@ -1,8 +1,4 @@
-import {
-  BrowserRouter,
-  Route,
-  Routes,
-} from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import { AppLayout } from "@/layouts/AppLayout";
 import { BudgetPage } from "@/pages/BudgetPage";
@@ -11,40 +7,27 @@ import { DepartmentsPage } from "@/pages/DepartmentsPage";
 import { IssuesPage } from "@/pages/IssuesPage";
 import { OverviewPage } from "@/pages/OverviewPage";
 import { PeoplePage } from "@/pages/PeoplePage";
+import { DepartmentDetailPage } from "@/pages/DepartmentDetailPage";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route element={<AppLayout />}>
-          <Route
-            path="/"
-            element={<OverviewPage />}
-          />
+          <Route path="/" element={<OverviewPage />} />
 
-          <Route
-            path="/departments"
-            element={<DepartmentsPage />}
-          />
+          <Route path="/departments" element={<DepartmentsPage />} />
 
-          <Route
-            path="/dependencies"
-            element={<DependenciesPage />}
-          />
+          <Route path="/dependencies" element={<DependenciesPage />} />
 
-          <Route
-            path="/budget"
-            element={<BudgetPage />}
-          />
+          <Route path="/budget" element={<BudgetPage />} />
 
-          <Route
-            path="/people"
-            element={<PeoplePage />}
-          />
+          <Route path="/people" element={<PeoplePage />} />
 
+          <Route path="/issues" element={<IssuesPage />} />
           <Route
-            path="/issues"
-            element={<IssuesPage />}
+            path="/departments/:deptId"
+            element={<DepartmentDetailPage />}
           />
         </Route>
       </Routes>
