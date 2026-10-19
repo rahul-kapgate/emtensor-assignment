@@ -121,10 +121,10 @@ export function PersonDetailPage() {
   }
 
   const {
-    researcher,
-    tasks,
-    timesheet,
-  } = data;
+  researcher,
+  tasks,
+  timesheet_summary,
+} = data;
 
   return (
     <div className="mx-auto max-w-[1500px] space-y-8 p-6 lg:p-8">
@@ -282,13 +282,13 @@ export function PersonDetailPage() {
 
             <p className="mt-2 text-2xl font-semibold">
               {
-                timesheet.total_hours
+                timesheet_summary.total_hours ?? 0
               }
             </p>
 
             <p className="mt-1 text-xs text-slate-500">
               {
-                timesheet.entry_count
+                timesheet_summary.entry_count ?? 0
               }{" "}
               timesheet entries
             </p>

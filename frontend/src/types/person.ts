@@ -37,7 +37,7 @@ export interface PersonDetail {
 
   tasks: PersonTask[];
 
-  timesheet: {
+  timesheet_summary: {
     entry_count: number;
     total_hours: number;
   };
