@@ -8,6 +8,7 @@ import { IssuesPage } from "@/pages/IssuesPage";
 import { OverviewPage } from "@/pages/OverviewPage";
 import { PeoplePage } from "@/pages/PeoplePage";
 import { DepartmentDetailPage } from "@/pages/DepartmentDetailPage";
+import { PersonDetailPage } from "@/pages/PersonDetailPage";
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
           <Route path="/budget" element={<BudgetPage />} />
 
           <Route path="/people" element={<PeoplePage />} />
+
+          <Route path="/people/:researcherId" element={<PersonDetailPage />} />
 
           <Route path="/issues" element={<IssuesPage />} />
           <Route
